@@ -46,6 +46,6 @@ The included run reaches `t = 10`. Its energy history is an initial numerical re
 ## Compile and run
 
 ```bash
-gfortran -std=f2008 -O2 -Wall -Wextra km_pic_1d3v.f90 -o km_pic_1d3v
+gfortran km_pic_1d3v.f90 -o km_pic_1d3v
 ./km_pic_1d3v
 ```
